@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: darkblue;
+  color: white;
+  height: 50px;
+  border-radius: 40px;
+  width: 200px;
+  font-size: 40px;
+}
+main {
+  background-color: darkblue;
+}
+.container {
+  height: 760px;
+
+  padding: 50px 60px;
+  display: flex;
+
+  justify-content: space-between;
+  background-color: darkblue;
+  position: relative;
+}
+.Naruto {
+  width: 248px;
+  height: 320px;
+  position: absolute;
+  bottom: 420px;
+  transform: scaleX(-1);
+}
+.elements {
+  width: 248px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.elements p {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  width: 293px;
+  height: 120px;
+  background-color: #232028;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  height: 100px;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid black;
+}
